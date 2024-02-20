@@ -62,22 +62,22 @@ xlogin*innerFramesWidth: 0
 xlogin.Login.sepWidth: 0
 
 ! top/left border
-xlogin*hiColor: black
+xlogin*hiColor: red
 
 ! bottom/right border
-xlogin*shdColor: black
+xlogin*shdColor: red
 
 ! 'Welcome to..' text color
-xlogin*greetColor: cyan
+xlogin*greetColor: red
 #if defined(bpp4) || defined(bpp8) || defined(bpp15)
 ! flood fill
 xlogin*background: black
 xlogin*inpColor: black
 #endif
-xlogin*failColor: red
+xlogin*failColor: cyan
 
 ! 'Login:' and 'Password:'
-*Foreground: cyan
+*Foreground: red
 
 ! border/shadow
 *Background: black
@@ -89,10 +89,10 @@ xlogin*shdColor: black
 xlogin*hiColor: white
 xlogin*greetColor: white
 xlogin*background: black
-xlogin*failColor: red
-xlogin*promptColor: cyan
+xlogin*failColor: cyan
+xlogin*promptColor: red
 *Foreground: black
-*Background: cyan
+*Background: red
 #endif
 #ifdef bpp1
 xlogin*logoFileName: /etc/X11/xenodm/pixmaps/itsalive.xpm
